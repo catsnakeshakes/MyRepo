@@ -1,0 +1,107 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("Fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
+}
+
+/*--------------------------------------------*/
+body {
+  background-color: white
+}
+
+hr {
+  border: none;
+}
+
+h1 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-family: myFirstFont;
+  color: black;
+  font-size: 30pt
+}
+
+h2 {
+  margin: 10;
+  padding: 10;
+  font-family: myFirstFont;
+  color: red;
+  font-size: 20pt
+}
+p {
+  text-align: center;
+  border: 1px
+  display: block;
+  background-color: green
+
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: pink;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: Black;
+}
+
+.active {
+  background-color: purple;
+}
+
+video {
+  display: block;
+  margin: auto;
+  position: inherit;
+
+  bottom: 0px;
+  width: 500px;
+}
+
+#container {
+  columns: ;
+  display: block;
+  margin: 0px;
+  padding:30px;
+}
+
+#left {
+  position: absolute;
+  top: 10px
+  left: 0px;
+  width: 300px;
+  border: 3px solid red;
+  padding: 10px;
+}
+
+#right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
